@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Reset default margin and apply Poppins font */
+body, * {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Container for the entire screen */
+.screen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+/* Styles for the left side */
+.left {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+/* Styles for the heading */
+h1 {
+    font-size: 3.4rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles for the green part of the heading */
+.green {
+    color: green;
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6; /* Improve readability with increased line height */
+}
+
+/* Styles for the countdown timer */
+#countdown {
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.right{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right>img{
+    height: 70%;
+    width: auto;
+}
